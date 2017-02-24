@@ -10,7 +10,7 @@ WSPR TX/RX Simulator
 Background
 ==========
 
-The WSPR program (runs in GNU Octave or Matlab) is designed for sending and receiving low-power, ultra-low baud rate transmissions to chart the worldwide propagation paths on popular Amateur Radio bands. 
+The WSPR program is designed for sending and receiving low-power, ultra-low baud rate transmissions to chart the worldwide propagation paths on popular Amateur Radio bands. 
 This program was initially written by Joe Taylor (K1JT), and released in 2008 and is maintained with periodic new releases. 
 
 The proven successful communication construct of WSPR is an interesting case study for an ultra-low baud communication for Matlab analysis environment. 
@@ -18,6 +18,7 @@ The elements of this program are also successfully used in Amateur Radio Earth-M
 
 Programs
 ========
+Run in GNU Octave or MATLAB.
 
 ``wspr_transmit.m`` begins with packing the transmit data; callsign + maidenhead + power. 
 The packed data is FEC encoded with Layland-Lushbaugh Polynomials, interleaved and sync sequence added in producing signal.dat. 
