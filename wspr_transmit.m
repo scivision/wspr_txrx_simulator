@@ -7,6 +7,12 @@
 %               Consult www.wsprnet.org for details              %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+try
+  bi2de(1)
+catch
+  pkg load communications
+end
+
 clear
 %% user entries         
 % call must have 6 letter 
